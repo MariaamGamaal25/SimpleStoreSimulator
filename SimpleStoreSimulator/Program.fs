@@ -432,6 +432,7 @@
 open System
 open System.Windows.Forms
 open System.Collections.Generic
+open System.Drawing //L
 
 // Define product type
 type Product = { Name: string; Price: float; Description: string }
@@ -628,6 +629,18 @@ openCartButton.Click.Add(fun _ ->
 
 // Add controls to the form (main window)
 form.Controls.AddRange [| productList; cartList; addButton; openCartButton |]
+
+
+
+
+
+
+// Load the background image
+let backgroundImage = Image.FromFile("D:\cartimg.jpeg")
+form.BackgroundImage <- backgroundImage
+    
+    // Set the layout of the background image
+form.BackgroundImageLayout <- ImageLayout.Stretch
 
 // Run the application
 [<EntryPoint>]
