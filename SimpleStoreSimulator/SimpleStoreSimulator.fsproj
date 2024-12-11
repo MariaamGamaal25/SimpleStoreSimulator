@@ -11,6 +11,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Content Include="cartimg.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="System.Collections" Version="4.3.0" />
 		<PackageReference Include="System.Reactive.Windows.Forms" Version="6.0.1" />
 	</ItemGroup>
