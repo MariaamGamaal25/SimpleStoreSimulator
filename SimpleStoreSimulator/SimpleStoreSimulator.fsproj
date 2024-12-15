@@ -7,11 +7,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Compile Include="ProductModule.fs" />
+		<Compile Include="CartModule.fs" />
+		<Compile Include="GuiModule.fs" />
+		<Compile Include="EventHandlersModule.fs" />
 		<Compile Include="Program.fs" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Content Include="cartimg.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
