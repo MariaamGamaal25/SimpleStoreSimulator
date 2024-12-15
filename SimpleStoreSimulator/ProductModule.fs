@@ -1,4 +1,3 @@
-
 ﻿module ProductModule
 
 // Define the Product type
