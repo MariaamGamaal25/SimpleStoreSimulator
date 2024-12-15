@@ -1,3 +1,4 @@
+
 ﻿module GuiModule
 
 open System.Windows.Forms
@@ -46,5 +47,6 @@ form.Controls.AddRange([| productList; cartList; addButton; openCartButton;|])
 
 
 // Expose these elements to other modules
+
 
 
